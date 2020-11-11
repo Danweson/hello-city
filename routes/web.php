@@ -2,10 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-    Route::get('/', function (){
+    Route::name('home')->get('/', function (){
         return view('page/home');
-    })->name('home');
+    });
 
-Route::get('/about-us', function (){
+Route::name('about')->get('/about-us', function (){
     return view('page/about');
-})->name('about');
+});

@@ -21,7 +21,11 @@
     {{ config('project.variable') }}
 
     <footer>
-        @yield('footer')
+            <p>&copy; Copyright {{ date('Y') }} &middot; </p>
+
+            @if( ! \Illuminate\Support\Facades\Route::is('about'))
+            <p><a href="{{ route('about') }}">About Us</a></p>
+            @endif
     </footer>
 </body>
 </html>
