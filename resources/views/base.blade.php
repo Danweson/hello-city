@@ -18,7 +18,7 @@
 
     @yield('content')
 
-    {{ config('project.slogan') }}
+    {{ config('project.variable') }}
 
     <footer>
         @yield('footer')
