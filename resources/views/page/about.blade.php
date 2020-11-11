@@ -1,8 +1,13 @@
 @extends('base')
 
-@section('content')
+    @section('title', ' About | Hello City')
 
-            <p>Built with &hearts; by DANWE Christophe</p>
-            <p><a href="/">Revenir à la page d'accueil</a></p>
 
-@endsection
+    @section('content')
+                <p>Built with &hearts; by DANWE Christophe</p>
+                <p><a href="/">Revenir à la page d'accueil</a></p>
+    @endsection
+
+    @section('footer')
+        <p>&copy; Copyright {{ date('Y') }} &middot; </p>
+    @endsection
