@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>@yield('title', 'Hello City')</title>
+    <title>@yield('title', env('APP_NAME') )</title>
 
     <!-- Fonts -->
 
@@ -17,6 +17,7 @@
 <body>
 
     @yield('content')
+
 
     <footer>
         @yield('footer')
