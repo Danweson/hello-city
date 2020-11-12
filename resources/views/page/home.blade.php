@@ -4,7 +4,7 @@
 
     @section('content')
 
-            <img src="/img/cm.png" alt="Cameroon Flag" width="15%">
+            <img src="{{ asset('img/cm.png') }}" alt="Cameroon Flag" width="15%">
 
             <h1>Hello from Douala!</h1>
 

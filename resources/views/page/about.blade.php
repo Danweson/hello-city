@@ -5,7 +5,7 @@
 
     @section('content')
 
-        <img src="/img/prog.png" alt="IT Prog" width="15%">
+        <img src="{{ asset('img/prog.png') }}" alt="IT Prog" width="15%">
 
 
         <p>Built with &hearts; by DANWE Christophe</p>
